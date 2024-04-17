@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+}
+
+.main{
+	height: 100vh;
+	background:rgba(0,0,0,0.7)url("https://images2.alphacoders.com/829/thumb-1920-829624.jpg");
+	background-size: 1600px 750px;
+	background-repeat:no-repeat;
+	background-blend-mode: darken;
+}
+.navbar{
+	display: flex;
+}
+.logo{
+	color:white;
+	padding-top: 30px;
+	padding-left: 150px;
+	font-size: 50px;
+	cursor: pointer;
+}
+.list{
+	padding-top: 70px;
+	padding-left: 20px;
+}
+ul{
+	display: flex;
+}
+ul li{
+	color:darkviolet ;
+	list-style: none;
+	padding-right: 70px;
+}
+ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 35px;
+	transition: 0.6s ease-in-out;
+}
+ul li a:hover{
+	color: hotpink;
+}
+.content{
+	width: 700px;
+}
+.content h1{
+	color: white;
+	font-size: 45px;
+	padding-left: 150px;
+	padding-top: 100px;
+}
+
+
+.para{
+	color: white;
+	padding-left: 150px;
+	letter-spacing: 2px;
+	
+}
+.buttondiv{
+	padding-left: 200px;
+	margin-top: 20px;
+
+}
+.button{
+	padding: 20px 40px;
+	border-radius: 10px;
+	background-color: darkblue;
+	transition: 1s ease-in-out;
+}
+.button:hover{
+	background-color: hotpink;
+	color: hotpink;
+}
+.buttondiv a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.emi{
+	font-weight: bold;
+	color:yellow;
+}
+.form{
+	position: absolute;
+	top: 200px;
+	left: 1100px;
+}
+.form span{
+	color: white;
+	background-color: pink;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px 90px;
+	border-radius: 10px;
+}
+
+form input{
+	height: 20px;
+	width: 300px;
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: transparent;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+
+}
+form input:focus{
+
+	outline: none;
+}
+.form button h3{
+	font-weight: bold;
+	font-size: 25px;
+	color: deeppink;
+	
+}
+.form button:hover{
+	background-color: pink;
+	color: white;
+}
+.form button{
+	padding: 10px 110px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	transition: 0.6s ease-in-out;
+	cursor: pointer;
+}
+.form p{
+	color: white;
+	margin-left: 10px;
+}

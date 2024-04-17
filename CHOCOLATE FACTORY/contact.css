@@ -1,0 +1,46 @@
+.contact-bg{
+    height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images//allimg.jpeg");
+	background-size: cover;
+}
+.logo{
+	color:white;
+	padding-top: 30px;
+	padding-left: 150px;
+	font-size: 60px;
+	cursor: pointer;
+}
+h1{
+	font-size:40px;
+	color:yellow;
+	margin-left:100px;
+}
+p{
+	font-size:25px;
+	color:white;
+	margin-left:100px;
+	padding-left:10px;
+}
+.f-list{
+	display: flex;
+}
+h2{
+	font-size:50px;
+	font-weight: bold;
+	margin-left:500px;
+	color: white;
+}
+.icon{
+	margin-left:50px;
+}
+.button-h{
+    color: antiquewhite;
+    background-color:orange;
+    font-size:12px;
+    border-width:0px;
+    font-weight: bold;
+    height:25px;
+    width: 120px;
+    margin-left:100px;
+    border-radius:5px;
+}
